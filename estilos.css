@@ -1,0 +1,164 @@
+
+
+body {
+    margin: 0;
+}
+
+p {
+    font-family: 'cocogoose pro semilight', sans-serif;
+}
+
+h2 {
+    font-family: 'cocogoose pro semilight', sans-serif;
+}
+
+/* Desde aca arrancan los estilos del nav  */
+.container-nav  {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    box-shadow: 0px 6px 67px rgba(0, 0, 0, 0.16);
+    ;
+}
+
+.container-li {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.button-nav {
+        width: 170px;
+        height: 43px;
+        border-radius: 30px;
+        background: #bdf30e;
+        box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.16);    
+        color: #ffffff; 
+        margin: 10px;
+        border: none; 
+        cursor: pointer; 
+        font-size: 16px; 
+}   
+
+.button-nav:hover {
+    background-color: #ffffff;
+    color: #bdf30e;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    font-family: 'cocogoose pro semilight', sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+a:hover {
+    color: rgb(139, 139, 139);
+    font-family: 'cocogoose pro semilight', sans-serif;
+} 
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family:'cocogoose', sans-serif;
+}
+
+
+
+/* aca terminan los estilos del Nav */
+/* Arrancan los estilos de: sobre mi */
+
+.container-sobremi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.texto-sobremi {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: left;
+}
+
+/* Termina sobre mi */
+
+/* Arrancan los estilos de: Conocimiento */
+
+h2{
+    color: black;
+    font-size: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.section-conocimiento {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(232, 232, 232, 0.189);
+    padding-top: 80px;
+    
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.16);
+    margin: 40px;
+    
+}
+
+.info-conocimiento{
+    display: flex;
+    justify-content: center;
+}
+.text-conocimiento {
+    max-width: 400px;
+}
+/* Termina seccion conocimiento */
+/* arranca seccion cita */
+
+.container-cita {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(101, 22, 197);
+    padding: 100px;
+    
+}
+
+
+blockquote {
+    font-family:'cocogoose pro semilight', sans-serif;
+    color: #ffffff;
+}    
+
+.h2-cita {
+    color: #ffffff;
+    size: 12px;
+}
