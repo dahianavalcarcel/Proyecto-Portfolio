@@ -8,7 +8,12 @@ p {
     font-family: 'cocogoose pro semilight', sans-serif;
 }
 
-h2 {
+h3 {
+    font-family: 'cocogoose pro semilight', sans-serif;
+    size: 15px;
+}
+
+h2  {
     font-family: 'cocogoose pro semilight', sans-serif;
 }
 
@@ -31,18 +36,21 @@ h2 {
         width: 170px;
         height: 43px;
         border-radius: 30px;
-        background: #bdf30e;
-        box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.16);    
+        background: #752dfc;    
         color: #ffffff; 
         margin: 10px;
         border: none; 
         cursor: pointer; 
         font-size: 16px; 
+        border: 15px #752dfc; /* Establecemos un borde transparente por defecto */
+        transition: border-color 0.3s; /* Agregamos una transición suave para el cambio de color */
 }   
 
 .button-nav:hover {
     background-color: #ffffff;
-    color: #bdf30e;
+    color: #752dfc;
+    border-color: #752dfc;
+    
 }
 
 ul {
@@ -84,7 +92,7 @@ h1{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .texto-sobremi {
@@ -123,13 +131,23 @@ h2{
     margin-bottom: 80px;
 }
 
-.box {
+.card {
+    display: flex;
+    align-items: end;
+    justify-content: center;
     width: 300px;
     height: 300px;
     border-radius: 30px;
     background: #ffffff;
     box-shadow: 0px 3px 24px rgba(0, 0, 0, 0.16);
     margin: 40px;
+
+
+}
+
+img-card {
+    display: block;
+    width: 100%;
     
 }
 
