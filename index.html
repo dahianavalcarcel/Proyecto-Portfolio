@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="imagenx/icon">
     <style>
         @font-face {
             font-family: 'cocogoose';
             src: url('C:\Users\Yo\Desktop\Ada\proyecto-ada\font') format('opentype');
         }
     </style>
-     <script src="https://kit.fontawesome.com/6f2fa76ad7.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6f2fa76ad7.js" crossorigin="anonymous"></script>
     <title>Proyecto Portfolio</title>
 </head>
 <body>
@@ -97,7 +98,7 @@
     </section>
 
     <section class="container-cita">
-        <i class="fa-regular fa-quote-right" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-quote-left" style="color: #ffffff;"></i>
         <blockquote >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ea voluptatem molestiae labore, fuga aspernatur dignissimos odio voluptates inventore quis repellat. 
         </blockquote>
@@ -117,49 +118,103 @@
     </div>
     <div class="box-container">
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox1.png" alt="imagen de portfolio">
+                <h3>Portfolio</h3>
             </div>
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox2.png" alt="imagen de portfolio">
+                <h3>Generador de memes</h3>
             </div>
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox5.png" alt="imagen de portfolio">
+                <h3>Match 3</h3>
             </div>
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox3.png" alt="imagen de portfolio">
+                <h3>Controlador de gastos</h3>
             </div>
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox6.png" alt="imagen de portfolio">
+                <h3>Administrador de reuniones</h3>
             </div>
             <div class="card">
-                <h3>esto es una caja</h3>
+                <img src="img/prox1.png" alt="imagen de portfolio">
+                <h3>Todo App</h3>
             </div>
             <div class="card">
+                <img src="img/prox1.png" alt="imagen de portfolio">
                 <h3>esto es una caja</h3>
             </div>
     </div>
 
     </section>
-
+<!-- Acá arranca el formulario -->
+    <section class="section-form">
+        <div class="contenedor-contact">
+            <div class="text-form">
+                <h2>Contactame</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nam repudiandae temporibus libero, recusandae voluptatum. Eaque unde tenetur, repudiandae saepe rem rerum atque consequuntur itaque perspiciatis sapiente qui laudantium quibusdam?</p>
+                <div class="icons">
+                        <ul>
+                            <li>
+                                <a href=""class="icons-font"><i class="fa-brands fa-facebook-f"></i>@dahianavalcarcel </a>
+                            </li>
+                            <li>
+                                <a href=""class="icons-font"><i class="fa-brands fa-github-alt"></i>Dahianavalcarcel </a>
+                            </li>
+                            <li>
+                                <a href="" class="icons-font"><i class="fa-brands fa-linkedin-in"></i>Dahiana Valcarcel </a>
+                            </li>
+                            <li>
+                                <a href=""class="icons-font"><i class="fa-regular fa-envelope"></i></i>dahianavalcarcel@gmail.com </a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+                <div class="contenedor-form">
+                    <h2>Escribime</h2>
+                    <form id="form-contacto"method="POST" autocomplete="off" novalidate>
+                    <div class="main-nombre">
+                        <div class="container-nombre">
+                            <label for="nombre-usuario">Nombre *</label>
+                            <input id="nombre-usuario" type="text" placeholder="Nombre" required >
+                        </div> 
+                        <div class="container-nombre">
+                            <label for="apellido-usuario">Apellido *</label>
+                            <input id="apellido-usuario" type="text" placeholder="Apellido" required >
+                        </div>
+                    </div>
+                        <label for="correo-usuario" type="email">Correo Electrónico *</label>
+                        <input id="correo-usuario" placeholder= "Correo Electrónico" required >
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" placeholder="Escriba su mensaje"></textarea>
+                        <label for="input-submit"></label>
+                        <input id="input-submit"type="submit" >
+                        
+                    </form>
+            </div>
+        </div>
+    </section>
+<!-- ACÁ ARRANCA EL FOOTER -->
     <footer>
         <div class="footer-container">
-          <div class="footer-links">
-            <a href="#">Hola</a>
-            <a href="#">Conocimientos</a>
-            <a href="#">Proyectos</a>
-            <a href="#">Contacto</a>
-          </div>
-          <div class="footer-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-          <p >
-            Hecho con 🤍 por <a target="_blank" href="https://github.com/kuenmili" rel="noreferrer" className={styles.a}>Dahi</a>
-        </p>
+        <div class="footer-links">
+                <a href="#">Hola</a>
+                <a href="#">Conocimientos</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
-      </footer>
+            <p >
+                Hecho con 🤍 por <a target="_blank" href="https://github.com/dahianavalcarcel" rel="noreferrer">Dahi</a>
+            </p>
+        </div>
+    </footer>
 
     
 </body>
